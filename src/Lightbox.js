@@ -1,6 +1,6 @@
-import React, { Component, useState, useCallback } from 'react';
-import { render } from 'react-dom';
+import React, { useState, useCallback } from 'react';
 import ImageViewer from 'react-simple-image-viewer';
+
 function Lightbox() {
   const [currentImage, setCurrentImage] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
