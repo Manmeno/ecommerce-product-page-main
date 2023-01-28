@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Kumbh+Sans:wght@400;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: system-ui;
+}
+.navv{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  padding: 20px 100px;
+}
+.navbar a{
+  padding: 0 17px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.Collections,.Men ,.Women, .About, .Contact{
+  color: hsl(219, 9%, 45%);
+}
+.Women:hover{
+  border-bottom: 3px solid hsl(26, 100%, 55%);
+}
+.Sneakers{
+  width: 100px;
+}
+.imageAvatar{
+  width: 40px;
+  height: 40px;
+  margin: 0 50px;
+}
+.hr{
+  width: 80%;
+  margin: 0 120px;
+}
+.Content{
+  margin: 50px 100px;
+}
+.imageProduct1{
+  height: 300px;
+  border-radius: 5px;
+}
+.imageProduct1Thumbnail{
+  height: 65px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.imageProduct2Thumbnail{
+  height: 65px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.imageProduct3Thumbnail{
+  height: 65px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.imageProduct4Thumbnail{
+  height: 65px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.Content{
+  display: flex;
+  margin-top: 90px;
+}
+.images{
+  display: block;
+  margin-left: 125px;
+}
+.imagessmall{
+  display: flex;
+}
+.inf{
+  margin: 30px 0 0 135px;
+}
+.SneakerCompany{
+  font-weight: 400;
+  font-weight: bold;
+  font-size: small;
+  letter-spacing: 2px;
+  color: hsl(26, 100%, 55%);
+}
+.limited{
+  font-weight: 700;
+  font-size: 44px;
+}
+.low{
+  color: hsl(219, 9%, 45%);  
+}
+.price{
+  font-weight: 700;
+  font-size: x-large;
+}
+.discount{
+  margin-left: 10px;
+  font-size: medium;
+  border-radius: 5px;
+  padding: 5px;
+  color: hsl(26, 100%, 55%);
+  background: hsl(25, 100%, 94%);
+}
+.price2{
+  color: hsl(219, 9%, 45%); 
+  margin-top: 9px;
+  font-size: small;
+  opacity: 0.6;
+}
+.counter{
+  display: flex;
+  margin-top: 20px;
+}
+.plus{
+  border-radius: 0 5px 5px 0;
+  border: none;
+  outline: none;
+  padding: 8px 13px;
+  background: hsl(223, 64%, 98%);
+  cursor: pointer;
+}
+.count{
+  background: hsl(223, 64%, 98%);
+  padding: 10px 25px;
+  font-weight: 400;
+}
+.minus{
+  border-radius: 5px 0 0 5px;
+  border: none;
+  outline: none;
+  padding: 8px 13px;
+  background: hsl(223, 64%, 98%);
+  cursor: pointer;
+}
+.btn{
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 8px 50px;
+  color: hsl(223, 64%, 98%);
+  background: hsl(26, 100%, 55%);
+  cursor: pointer;
+}
+.iconcart{
+  margin-right: 10px;
+  color: hsl(223, 64%, 98%);
+}
+.btnCart{
+  margin: 0 0 10px 0;
+}
