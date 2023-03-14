@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>content management system</title>
+</head>
+<body>
+    <div class="all">
+        <p class="title">Mina & Selvana SuperMarket</p>
+        <p class="title">Product Management System</p>
+        <div class="input">
+            <input type="text" placeholder="title" id="input">
+            <div class="prices">
+                <input onkeyup="gettotal()" type="number" placeholder="price" id="price">
+                <input onkeyup="gettotal()" type="number" placeholder="discount" id="discount">
+                <small id="total"></small>
+            </div>
+            <input onkeyup="gettotal()" type="number" placeholder="count" id="count">
+            <input onkeyup="gettotal()" type="text" placeholder="category" id="category">
+            <button id="submit">Create</button>
+        </div>
+        <div class="output">
+            <div class="sarches">
+                <input onkeyup="search(this.value)" type="search" placeholder="search" id="search">
+                <div class="btns">
+                    <button onclick="getSearchMode(this.id)" id="searchbyid">Search By Id</button>
+                    <button onclick="getSearchMode(this.id)" id="searchbycatogary">Search By Catogary</button>
+                </div>
+                <div id="deleteAll">
+
+                </div>
+                <table>
+                    <tr>
+                        <th>Id</th>
+                        <th>Title</th>
+                        <th>Price</th>
+                        <th>Discount</th>
+                        <th>total</th>
+                        <th>Category</th>
+                        <th>Update</th>
+                        <th>Soldout</th>
+                    </tr>
+                    <tbody id="tbody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
