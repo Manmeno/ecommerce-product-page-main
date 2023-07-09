@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Kumbh+Sans:wght@400;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: system-ui;
+}
+.navv{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  padding: 20px 100px;
+  position: fixed;
+  background: white;
+  z-index: 9999;
+}
+.hidden{
+  display: none;
+  z-index: -1;
+}
+.navbar a{
+  padding: 0 17px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.Collections,.Men ,.Women, .About, .Contact{
+  color: hsl(219, 9%, 45%);
+}
+.Women:hover , .Collections:hover, .Men:hover, .About:hover, .Contact:hover{
+  color: #fff;
+  transition: 0.5s ease-in-out;
+  background: hsl(26, 100%, 55%);
+}
+.Men-Title{
+  text-align: center;
+  padding-top: 60px;
+  font-size: xx-large;
+  font-weight: 700;
+  color: #000;
+}
+.Sneakers{
+  width: 100px;
+}
+.imageAvatar{
+  width: 40px;
+  height: 40px;
+  margin: 0 50px;
+}
+.menu{
+  display: none;
+}
+.Content{
+  margin: 50px 100px;
+}
+.Content{
+  display: flex;
+  margin-top: 50px;
+}
+.inf{
+  margin: 30px 0 0 135px;
+}
+.SneakerCompany{
+  font-weight: 400;
+  font-weight: bold;
+  font-size: small;
+  letter-spacing: 2px;
+  color: hsl(26, 100%, 55%);
+}
+.limited{
+  font-weight: 700;
+  font-size: 44px;
+}
+.low{
+  color: hsl(219, 9%, 45%);  
+}
+.price{
+  font-weight: 700;
+  font-size: x-large;
+}
+.discount{
+  margin-left: 10px;
+  font-size: medium;
+  border-radius: 5px;
+  padding: 5px;
+  color: hsl(26, 100%, 55%);
+  background: hsl(25, 100%, 94%);
+}
+.price2{
+  color: hsl(219, 9%, 45%); 
+  margin-top: 9px;
+  font-size: small;
+  opacity: 0.6;
+}
+.counter{
+  display: flex;
+  margin-top: 20px;
+}
+.plus{
+  border-radius: 0 5px 5px 0;
+  border: none;
+  outline: none;
+  padding: 8px 13px;
+  background: hsl(223, 64%, 98%);
+  cursor: pointer;
+}
+.count{
+  background: hsl(223, 64%, 98%);
+  padding: 10px 25px;
+  font-weight: 400;
+}
+.minus{
+  border-radius: 5px 0 0 5px;
+  border: none;
+  outline: none;
+  padding: 8px 13px;
+  background: hsl(223, 64%, 98%);
+  cursor: pointer;
+}
+.btn{
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 8px 50px;
+  color: hsl(223, 64%, 98%);
+  background: hsl(26, 100%, 55%);
+  cursor: pointer;
+}
+.iconcart{
+  margin-right: 10px;
+  color: hsl(223, 64%, 98%);
+}
+.btnCart{
+  margin: 0 0 10px 0;
+}
+#prod{
+  display: block;
+  border-radius: 5px;
+  box-shadow: hsl(219, 9%, 45%) 0 0 30px;
+  background: hsl(0, 0%, 100%);
+  position: absolute;
+  right: 13rem;
+  top: 8rem;
+  bottom: 0;
+  width: 300px;
+  height: fit-content;
+  padding: 2rem;
+  z-index: 999;
+  transition: all 0.3s ease-in-out;
+}
+.subtit{
+  text-align: left;
+  font-size: large;
+  font-weight: 500;
+}
+.prod2{
+  height: fit-content;
+  display: flex;
+  align-items: center;
+}
+.sandbox1{
+  display: none;
+}
+.test{
+  padding: 14px 2px;
+  width: 40px;
+  display: flex;
+  border-radius: 15px;
+}
+.total{
+  margin-left: -153px;
+  margin-top: 30px;
+  padding: 10px 5px;
+}
+.delete{
+  padding-left: 15px;
+  cursor: pointer;
+}
+.close{
+  display: none;
+}
+.navbar1{
+  display: none;
+}
+.content2{
+  margin-top: 20px;
+}
+@media (max-width:376px) {
+  .Collections,.Men ,.Women, .About, .Contact{
+    display: none;
+  }
+  .menu{
+    display: block;
+  }
+  .imageAvatar{
+    display: flex;
+    margin: 5px 15px;
+  }
+  .navv{
+    padding: 10px 20px;
+  }
+  .navbar{
+    display: flex;
+    align-items: center;
+  }
+  .nav{
+    display: flex;
+    align-items: center
+  }
+  .navbar a {
+    padding: 0 5px;
+  }
+  .hr{
+    display: none;
+  }
+  .iconCart{
+    display: flex;
+  }
+  .sandbox{
+    display: none;
+  }
+  .sandbox1{
+    display: inline;
+    z-index: 1;
+  }
+  .Content{
+    display: contents;
+  }
+  .inf{
+    margin: 0;
+    margin: 10px 20px;
+  }
+  .limited{
+    font-size: 30px;
+  }
+  .price2{
+    text-align: right;
+    margin-top: -27px;
+  }
+  #prod{
+    left: 2px;
+    width: 99%;
+  }
+  .counter{
+    margin-top: 25px;
+  }
+  .navbar1{
+    display: block;
+    background: hsl(0, 0%, 98%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 70%;
+    height: 835px;
+    padding: 5rem 2rem;
+    z-index: 999;
+  }
+  .navbar1 a{
+  display: flex;
+  padding: 15px;
+  color: hsl(0, 0%, 0%);
+  cursor: pointer;
+  font-size: medium;
+  font-weight: 500;
+  text-decoration: none;
+  }
+  .close{
+    display: block;
+  }
+  .none{
+    display: none;
+  }
+}
