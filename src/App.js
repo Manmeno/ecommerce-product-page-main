@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Cart from "./Cart";
-import Navbar1 from './Navbar1';
 export default function App() {
   const [navIsOpen, setNavIsOpen] = useState(false);
   const [cartIsOpen, setCartIsOpen] = useState(false);
